@@ -9,5 +9,5 @@ groceries = {
 }
 
 def get_the_min(groceries)
-  return groceries.values
+  return groceries.values.flatten.min
 end
